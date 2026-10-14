@@ -1,0 +1,18 @@
+// Mapa Conceptual de Programación Oriente a Objetos
+digraph MapaConceptual {
+	rankdir=TB size="8,8"
+	node [fillcolor=lightblue shape=rectangle style=filled]
+	POO [label="Programación Orientada a Objetos"]
+	Clase [label="Clase
+(Plantilla / Molde)"]
+	Objeto [label="Objeto
+(Instancia de una clase)"]
+	Encapsulamiento [label=Encapsulamiento]
+	Herencia [label=Herencia]
+	Polimorfismo [label=Polimorfismo]
+	POO -> Clase [label="se basa en"]
+	Clase -> Objeto [label=crea]
+	POO -> Encapsulamiento [label=aplica]
+	POO -> Herencia [label=permite]
+	POO -> Polimorfismo [label=implementa]
+}
